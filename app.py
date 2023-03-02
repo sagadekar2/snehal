@@ -16,8 +16,8 @@ def man():
 def home():
     a = request.form['a']
     b = request.form['b']
-    c = request.form['c']
-    d = request.form['d']
+#     c = request.form['c']
+#     d = request.form['d']
 
     arr = np.array([[a, b, c, d]])
     pred = model.predict(arr)
